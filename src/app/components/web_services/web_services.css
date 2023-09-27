@@ -1,0 +1,70 @@
+.web_services > .web_services_container{ 
+    padding: 40px 15px;
+    max-width: 1200px;
+    margin: auto;
+}
+.web_services > .web_services_container > .web_services_wrapper > .web_services_heading > h2{
+    font-weight: 600;
+}
+.web_services > .web_services_container > .web_services_wrapper > .web_services_description{
+    color: #666;
+    margin-top: min(15px, 5vw);
+
+}
+.web_services > .web_services_container > .web_services_wrapper .our_services_container > .services_list{
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    justify-content: space-between;
+    min-width: 220px;
+    flex-wrap: wrap;
+}
+.web_services > .web_services_container > .web_services_wrapper .our_services_container > h3{
+      font-size: 14px;
+    margin-top: min(12px, 5vw);
+    margin-bottom: min(20px, 5vw);
+}
+.web_services > .web_services_container > .web_services_wrapper .our_services_container > .services_list > .service_list_left > ul > li{
+    list-style: none;
+    font-size: 14px;
+    color: #666;
+    padding-block: min(4px, 4vw);
+}
+.web_services > .web_services_container > .web_services_wrapper .our_services_container > .services_list > .service_list_left > ul > li::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-left: 5px solid #e65100;
+    border-bottom: 5px solid transparent;
+    display: inline-block;
+    padding-right: 6px;
+}
+.web_services > .web_services_container > .web_services_wrapper .our_services_container > .services_list > .service_list_right > ul > li{
+    list-style: none;
+    font-size: 14px;
+    color: #666;
+    padding-block: min(4px, 4vw);
+}
+.web_services > .web_services_container > .web_services_wrapper .our_services_container > .services_list > .service_list_right > ul > li::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-left: 5px solid #e65100;
+    border-bottom: 5px solid transparent;
+    display: inline-block;
+    padding-right: 6px;
+}
+.web_services > .web_services_container > .web_services_wrapper > .services_btn_container > .services_btn{
+    display: inline-block;
+    padding: min(16px,4.5vw) min(45px,8vw);
+    background-color: #e65100;
+    color: #fff;
+    text-decoration: none;   
+    transition: background-color 0.3s;
+    font-weight: 600;
+    font-size: min(14px, 3.5vw);
+    margin-top: min(30px, 5vw);
+    border-radius: 25px;
+}

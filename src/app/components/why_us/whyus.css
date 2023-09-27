@@ -1,0 +1,51 @@
+.WhyUs_section{
+    background-color: #f7f7f7;
+}
+.WhyUs_section .WhyUs_container{
+    padding: 40px 15px;
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+}
+.WhyUs_section .WhyUs_container > .WhyUs_content_wrapper{
+    width: 100%;
+    max-width: 74%;
+}
+.WhyUs_section .WhyUs_heading_container > h2 {
+    font-weight: 400;
+    font-size: min(30px, 8vw);
+}
+.WhyUs_section .WhyUs_heading_container > h2 > span{
+    font-weight: 600;
+}
+.WhyUs_section .WhyUs_description_container{
+    color: #666;
+    margin-block:min(18px, 8vw);
+}
+.WhyUs_section .WhyUs_description_container >p{
+    font-size: min(18px, 6vw);
+}
+.WhyUs_section .WhyUs_container > .WhyUs_content_wrapper > .WhyUs_list_container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;      
+}
+.WhyUs_section .WhyUs_container > .WhyUs_content_wrapper >.WhyUs_list_container > ul{
+    flex: 1 1 50%;
+}
+.WhyUs_section .WhyUs_container > .WhyUs_content_wrapper >.WhyUs_list_container > ul > li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-block: min(12px, 5vw);
+    color: #666;
+    font-size: 14px;
+}
+.WhyUs_section .WhyUs_container > .WhyUs_content_wrapper >.WhyUs_list_container > ul > li svg{
+    color: #e65100;
+    padding: 4px 5px;
+    border-radius: 50%;
+    border: 1px solid #e5e5e5;
+    font-size: 20px;
+    margin-right: 10px;
+}
